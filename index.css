@@ -1,0 +1,40 @@
+.button {
+  width: 3em;
+  height: 3em;
+  border-top: 5px solid black;
+  position: absolute;
+  cursor: pointer;
+}
+  
+.left {
+  border-left: 5px solid black;
+  left: 10%;
+  bottom: 10%;
+  transform: rotate(-45deg);
+  float: left;
+}
+  
+.right {
+  border-right: 5px solid black;
+  right: 10%;
+  bottom: 10%;
+  transform: rotate(45deg);
+  float: right;
+}
+
+img {
+  margin-top: 2em;
+  height: auto;
+  width: 14em;
+}
+
+main {
+  margin-left: 14em !important;
+  margin-right: 14em !important;
+}
+
+pop {
+  position: fixed;
+  width: 50%;
+  height: auto;
+}
